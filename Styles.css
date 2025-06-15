@@ -1,0 +1,22 @@
+/* Base page styles */
+body {
+  background: linear-gradient(to right, #ffe5ec, #ffc2d1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 50px 20px;
+}
+
+/* Main invitation box */
+.invitation-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  max-width: 400px;
+  margin: auto;
+  padding: 30px 25px;
+  transition: transform 0.3s;
+}
+
+.invitation-card:hover {
+  transform: scale(1.02);
